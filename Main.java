@@ -7,7 +7,7 @@ class Main
   {
     System.out.println("What is your name, Traveler?");
     String name = CheckInput.getString();
-    EnemyGenerator g = new EnemyGenerator();
+    EnemyGenerator g = new EnemyGenerator(); //make gen
     Hero h = new Hero( name ); 
     int choice = 0;
     char c = ' ';
